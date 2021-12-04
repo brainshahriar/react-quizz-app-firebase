@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Account from './Account'
 import classes from "../styles/Nav.module.css"
-import logo from "../assets/images/eduera-logo-small.png"
+import logo from "../assets/images/logo.png"
 
 class Nav extends Component {
     render() {

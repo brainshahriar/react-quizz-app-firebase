@@ -1,11 +1,13 @@
 import "../styles/App.css";
-import Nav from "./Nav";
+import Home from "./Home";
+import Layout from "./Layout";
+
 
 function App() {
   return (
-    <div className="App">
-      <Nav />
-    </div>
+      <Layout>
+        <Home />
+        </Layout>
   );
 }
 export default App;

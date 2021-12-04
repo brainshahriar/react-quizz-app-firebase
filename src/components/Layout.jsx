@@ -1,19 +1,18 @@
-import React, { Component } from 'react'
 import Nav from './Nav'
+import classes from "../styles/Layout.module.css"
 
-class Layout extends Component {
-    render() {
+function Layout ({children}) {
         return (
             <>
             <Nav />
             <main className={classes.main}>
-                <div className="container">
-                    
+                <div className={classes.container}>
+                    {children}
                 </div>
             </main>
             </>
         )
-    }
+    
 }
 
 export default Layout
