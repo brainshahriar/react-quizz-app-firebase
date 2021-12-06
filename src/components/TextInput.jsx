@@ -1,9 +1,9 @@
-import classes from "../../styles/Signup.module.css";
-import Button from "../Button";
-import Checkbox from "../Checkbox";
-import Form from "../Form";
-import Illustration from "../Illustration";
-import TextInput from "../TextInput";
+import classes from "../styles/Signup.module.css";
+import Button from "../components/Button";
+import Checkbox from "../components/Chechbox";
+import Form from "../components/Form";
+import Illustration from "../components/Illustration";
+import TextInput from "../components/TextInput";
 
 export default function Signup() {
   return (
