@@ -1,6 +1,7 @@
 import "../styles/App.css";
-import Home from "./Home";
+
 import Layout from "./Layout";
+import Home from "./pages/Home";
 
 
 function App() {
