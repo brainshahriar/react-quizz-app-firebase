@@ -1,7 +1,7 @@
 import "../styles/App.css";
 
 import Layout from "./Layout";
-import Signup from "./TextInput";
+import Signup from "../components/pages/Signup";
 // import Home from "./pages/Home";
 
 
