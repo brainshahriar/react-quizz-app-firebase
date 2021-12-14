@@ -1,6 +1,6 @@
-import Answers from "../Answers";
+import Answers from "../pages/Answers";
 import MiniPlayer from "../MiniPlayer";
-import ProgressBar from "../ProgressBar";
+import ProgressBar from "../pages/ProgressBar";
 
 export default function Quiz() {
   return (
